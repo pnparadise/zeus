@@ -27,5 +27,4 @@ func init()  {
 		beego.Info(redisConf)
 		beego.Error("Redis connection fail:"+err.Error())
 	}
-
 }
